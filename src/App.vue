@@ -12,9 +12,6 @@
 
 <template>
   <div class="wrapper">
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-    </nav>
     <Navbar />
     <Hero />
     <Services />
