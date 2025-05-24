@@ -12,6 +12,9 @@
 
 <template>
   <div class="wrapper">
+    <nav>
+      <RouterLink to="/"></RouterLink>
+    </nav>
     <Navbar />
     <Hero />
     <Services />

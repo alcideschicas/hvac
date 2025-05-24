@@ -6,8 +6,8 @@
 			<h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-dark">Contact Us</h2>
 			<p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">Need expert HVAC services?
 				Whether it's a repair, installation, or maintenance, our team is here to help! Fill out the form below,
-				and we’ll get back to you as soon as possible.</p>
-			<form action="#" className="space-y-8" netlify>
+				and we'll get back to you as soon as possible.</p>
+			<form action="#" className="space-y-8" name="contact" netlify>
 				<div>
 					<label htmlFor="name" className="block mb-2 text-sm font-bold text-gray-900">Name</label>
 					<input type="text" id="name"
