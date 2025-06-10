@@ -7,7 +7,7 @@
 			<p class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">Need expert HVAC services?
 				Whether it's a repair, installation, or maintenance, our team is here to help! Fill out the form below,
 				and we'll get back to you as soon as possible.</p>
-			<form netlify-honeypot="bot-field" method="POST" class="space-y-8" name="contact" data-netlify="true">
+			<form action="/thank-you" netlify-honeypot="bot-field" method="POST" class="space-y-8" name="contact" data-netlify="true">
 				<div>
 					<label for="name" class="block mb-2 text-sm font-bold text-gray-900">Name</label>
 					<input type="text" id="name" name="name"
