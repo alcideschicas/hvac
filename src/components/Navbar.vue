@@ -2,15 +2,10 @@
 import { ref } from 'vue';
 
 const activeTab = ref("Home")
-
-function setActiveTab(tab) {
-	activeTab = tab
-}
+const setActiveTab = (tab) => activeTab.value = tab;
 
 const showMenu = ref(false)
-const toggleMenu = () => {
-	showMenu.value = !showMenu.value
-}
+const toggleMenu = () => showMenu.value = !showMenu.value;
 </script>
 
 <template>
