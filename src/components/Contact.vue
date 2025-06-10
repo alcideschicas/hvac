@@ -10,25 +10,25 @@
 			<form netlify-honeypot="bot-field" method="POST" class="space-y-8" name="contact" data-netlify="true">
 				<div>
 					<label for="name" class="block mb-2 text-sm font-bold text-gray-900">Name</label>
-					<input type="text" id="name"
+					<input type="text" id="name" name="name"
 						class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
 						placeholder="Full name" required />
 				</div>
 				<div>
 					<label for="email" class="block mb-2 text-sm font-bold text-gray-900">Your email</label>
-					<input type="email" id="email"
+					<input type="email" id="email" name="email"
 						class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
 						placeholder="name@email.com" required />
 				</div>
 				<div>
 					<label for="subject" class="block mb-2 text-sm font-bold text-gray-900">Subject</label>
-					<input type="text" id="subject"
+					<input type="text" id="subject" name="subject"
 						class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
 						placeholder="Let us know how we can help you" required />
 				</div>
 				<div class="sm:col-span-2">
 					<label for="message" class="block mb-2 text-sm font-bold text-gray-900">Your message</label>
-					<textarea id="message" rows="6"
+					<textarea id="message" rows="6" name="message"
 						class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-50"
 						placeholder="Leave a comment..."></textarea>
 				</div>
