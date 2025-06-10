@@ -11,7 +11,7 @@
       <p className="text-lg text-gray-300 mb-8">Smart Heating & Cooling for a Cozy Home</p>
       <div>
         <a href="tel:240-802-9076"
-          className="bg-red-600 text-gray-900 hover:bg-red-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg me-3 cursor-pointer"><i
+          className="bg-blue-600 text-gray-900 hover:bg-blue-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg me-3 cursor-pointer"><i
             className="fas fa-phone"></i> Call Now</a>
         <a href="#services"
           className="bg-yellow-300 text-gray-900 hover:bg-yellow-200 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg cursor-pointer">View

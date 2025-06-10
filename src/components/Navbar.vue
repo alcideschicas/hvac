@@ -15,7 +15,7 @@ const toggleMenu = () => {
 
 <template>
 	<nav
-		class="bg-white dark:bg-gray-900 fixed w-full relative z-10 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+		class="bg-white dark:bg-gray-900 fixed w-full z-50 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
 		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 			<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
 				<i class="fa-solid fa-hammer fa-xl text-gray-500"></i>
@@ -57,7 +57,7 @@ const toggleMenu = () => {
 					</li>
 					<li>
 						<a href="tel:240-802-9076"
-							class="bg-red-600 text-gray-900 hover:bg-red-500 py-2 px-3 rounded-full text-xs font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg me-3 cursor-pointer"><i
+							class="bg-blue-600 text-gray-900 hover:bg-blue-500 py-2 px-3 rounded-full text-xs font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg me-3 cursor-pointer"><i
 								class="fas fa-phone"></i> (240) 802-9076</a>
 					</li>
 				</ul>

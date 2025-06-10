@@ -7,7 +7,7 @@
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-              <a href="tel:240-802-9076" className="bg-red-600 text-gray-900 hover:bg-red-500 py-2 px-3 rounded-full text-xs font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg me-3 cursor-pointer"><i className="fas fa-phone"></i> Call Now</a>
+              <a href="tel:240-802-9076" className="bg-blue-600 text-gray-900 hover:bg-blue-500 py-2 px-3 rounded-full text-xs font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg me-3 cursor-pointer"><i className="fas fa-phone"></i> Call Now</a>
             </li>
         </ul>
         </div>
